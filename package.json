@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-letyshops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "prod": "cross-env NODE_ENV=production webpack --no-progress"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.5.1",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.0.6",
+    "postcss": "^7.0.18",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "style-loader": "^1.0.0",
+    "tailwindcss": "^1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
