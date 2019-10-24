@@ -62,15 +62,6 @@ module.exports = {
       },
     },
   },
-  variants: {
-    textDecoration: ['responsive', 'group-hover'],
-    visibility: ['responsive', 'group-hover'],
-    opacity: ['responsive', 'group-hover'],
-    borderCollapse: ['responsive', 'group-hover'],
-    borderColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    borderRadius: ['responsive', 'group-hover'],
-    borderStyle: ['responsive', 'group-hover'],
-    borderWidth: ['responsive', 'group-hover'],
-  },
+  variants: {},
   plugins: []
-};
+}
