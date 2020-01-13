@@ -3,6 +3,12 @@ const config = require('tailwindcss/defaultTheme');
 module.exports = {
     theme: {
         extends: {},
+        screens: {
+            sm: '480px',
+            md: '720px',
+            lg: '960px',
+            xl: '1200px',
+        },
         colors: {
             transparent: 'transparent',
             black: '#000',
@@ -62,6 +68,23 @@ module.exports = {
                 800: '#4a4a4a',
                 900: '#121212',
             },
+        },
+        fontFamily: {
+            'heading': ['Montserrat', 'sans-serif'],
+            'body': ["'Open Sans'", 'sans-serif'],
+        },
+        fontSize: {
+            xxs: '0.625rem',
+            xs: '0.75rem',
+            sm: '0.875rem',
+            base: '1rem',
+            lg: '1.25rem',
+            xl: '1.5rem',
+            '2xl': '2rem',
+            '3xl': '2.5rem',
+            '4xl': '3rem',
+            '5xl': '3.5rem',
+            '6xl': '4rem',
         },
     },
     variants: {
